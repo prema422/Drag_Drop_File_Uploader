@@ -1,0 +1,9 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:linear-gradient(135deg,#667eea,#764ba2);display:flex;justify-content:center;align-items:center;height:100vh;}
+.container{background:#fff;padding:30px;border-radius:15px;width:500px;text-align:center;box-shadow:0 20px 40px rgba(0,0,0,0.3);}
+.drop-area{border:2px dashed #667eea;padding:30px;border-radius:12px;transition:0.3s;cursor:pointer;}
+.drop-area.dragover{background:#f0f4ff;}
+.drop-area p{font-weight:600;margin-bottom:10px;}
+.drop-area button{margin-top:10px;padding:8px 15px;border:none;border-radius:8px;background:#667eea;color:#fff;cursor:pointer;}
+.file-list{list-style:none;margin-top:20px;text-align:left;max-height:200px;overflow:auto;}
+.file-list li{padding:8px;border-bottom:1px solid #eee;font-size:14px;}
